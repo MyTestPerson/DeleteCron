@@ -7,5 +7,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface DeleteAddress extends JpaRepository<Address, Long> {
 
-    void deleteAddressById(Long id);
 }
