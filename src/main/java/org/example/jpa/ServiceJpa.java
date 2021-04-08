@@ -21,11 +21,6 @@ public class ServiceJpa {
         saveUser.save(user);
     }
 
-
-//    public void deleteAddressById(Long id) {
-//        deleteAddress.deleteById(id);
-//    }
-
     public void deleteAddressById(Long id){
         deleteAddress.deleteById(id);
     }
