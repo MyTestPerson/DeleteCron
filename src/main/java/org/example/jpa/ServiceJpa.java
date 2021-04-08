@@ -22,8 +22,14 @@ public class ServiceJpa {
     }
 
 
-    public void deleteAddressById(Long id) {
-        deleteAddress.deleteAddressById(id);
+//    public void deleteAddressById(Long id) {
+//        deleteAddress.deleteById(id);
+//    }
+
+    public void deleteAddressById(Long id){
+        deleteAddress.deleteById(id);
     }
+
+
 
 }
